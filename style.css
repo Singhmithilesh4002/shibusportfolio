@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 60);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 43);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover {
+    color: rgb(223, 10, 141);
+    font-size: 1.5rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5vh 0;
+}
+.firstsection img{
+    position: relative;
+    top: -10vh;
+    /* right: 10vw; */
+    height: 50vh;
+}
+
+.firstsection>div {
+    margin: 4%  0;
+    margin-top: 5%;
+
+    width: 30%;
+
+}
+
+.firstleft {
+    font-size: 3rem;
+    margin-left: 0vw 5%;
+}
+.button
+{
+    margin: 10px 0;
+    padding: 10px 0px;
+}
+.btn{
+    padding: 10px;
+    margin-right: 10px ;
+     border: 1.5px solid white;
+     border-radius: 5px;
+     background-color: rgb(50, 0,100);
+    color: white;
+    cursor: pointer;
+
+}
+
+.firstright {
+    background-color: rgb(0, 0, 60);
+    margin-left: 20vw;
+}
+
+.purple {
+    color: rgb(135, 62, 204);
+}
+
+.grey {
+    color: grey;
+}
+
+hr {
+    color: blueviolet;
+    border: 0p solid lavender;
+    background-color: lavender;
+    margin: 30px;
+    margin-top: 40px;
+}
+
+.section2 {
+    max-width: 80vw;
+    height: 40vw;
+    margin: auto;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+
+}
+
+.section2 .box {
+    margin: 20px;
+    margin-top: 40px;
+    background-color: white;
+    width: 80vw;
+    height: 1px;
+    display: flex;
+
+
+}
+
+.topimage {
+    height: 30px;
+    position: relative;
+    top: -30px;
+    left: -10px;
+}
+
+.sub {
+    font-size: 9px;
+    width: 100px;
+}
+
+.des {
+    font-size: 18px;
+    width: 100px;
+}
+
+.section2 .ver {
+    margin-right: 156px;
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+
+
+}
+
+.flex {
+    position: relative;
+    display: flex;
+    /* width: 90vw; */
+    justify-content: space-evenly;
+    background-color: rgb(4, 4, 43);
+    text-align: center;
+    padding: 30px;
+
+}
+
+.flex>div {
+
+    font-size: 1.3rem;
+}
+
+.flex div ul {
+    font-size: .9rem;
+}
+
+.flex div ul li {
+    list-style: none;
+}
+.right{
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(4, 4, 43);
+}
